@@ -6,4 +6,4 @@ app = Flask(__name__)
 def index():
     return 'Web App with Python Flask!'
 
-app.run(PORT=5000)
+app.run()
